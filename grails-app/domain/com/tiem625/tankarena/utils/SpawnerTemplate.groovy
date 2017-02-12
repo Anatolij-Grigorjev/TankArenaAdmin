@@ -7,8 +7,8 @@ class SpawnerTemplate extends FileLoadedEntityModel{
   int simultaneous
   int spawnPool
   String targetTag
-  float[] spreadMinXY = float[3]
-  float[] spreadMaxXY = float[3]
+  Vector3 spreadMinXY
+  Vector3 spreadMaxXY
   float gracePeriod
   Map<String, Float> goPathsToProbs
 
